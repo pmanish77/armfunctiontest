@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appName": {
+            "value": "mysampleapp98765"
+        },
+		"funcName": {
+            "value": "mysamplefunction98765"
+        },
+		"storageAccountType": {
+            "value": "Standard_LRS"
+        },
+		"location": {
+            "value": "southeastasia"
+        },
+		"runtime": {
+            "value": "python"
+        },
+		"GitHubBranch": {
+            "value": "master"
+        }
+    }
+}
